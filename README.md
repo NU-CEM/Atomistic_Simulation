@@ -72,7 +72,7 @@ Exercise:
 #### Tutorial eight: Machine-Learnt Interatomic Potentials 
 
 1. What are Machine-Learnt Interatomic Potentials (MLIPs)?
-2. How can I use MLIPs to identify equilibrium structures?
+2. How can I use MLIPs to identify equilibrium positions?
 3. How can I use MLIPs to perform a screening study?
 
 #### Tutorial nine: Molecular Dynamics
