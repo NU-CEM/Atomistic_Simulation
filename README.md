@@ -1,4 +1,4 @@
-# KL6003 Materials Simulation 
+# KL6003 Atomistic Simulation 
 
 An undergraduate programme in materials simulation, with a specific focus on materials which can be deployed in quantum optics simulations.
 
