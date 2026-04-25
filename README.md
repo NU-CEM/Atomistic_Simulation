@@ -14,7 +14,7 @@ View the book at: **https://nu-cem.github.io/Materials_Simulation**
 
 *Materials Simulation* provides a practical introduction to atomistic simulation using the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/). It is aimed at undergraduate students in physics, chemistry, or materials science.
 
-The course develops core simulation skills — building structures, running calculators, computing electronic structure, performing MD and geometry optimisation — and applies them to materials of current interest in quantum and molecular optics: single-photon emitters, quantum defects, wide-bandgap semiconductors, and 2D materials.
+The course develops core simulation skills — building structures, running calculators, computing electronic structure, performing MD and geometry optimisation — and applies them to materials of current interest in quantum and molecular optics: single-photon emitters, wide-bandgap semiconductors, and 2D materials.
 
 ## Contents
 
