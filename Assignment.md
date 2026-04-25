@@ -42,11 +42,11 @@ All defects should be considered in their neutral charge state. You may propose 
 
 1. Introduce the defect into your supercell. 
 2. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) displacement of the surrounding atoms as a function of distance from the defect. You may need to rattle your defect supercell to find the lowest energy configuration.
-3. Compute the bandstructure for your defect system and identify the localised energy level(s) associated with the defect.
+3. Compute the density of states for your defect system and identify the localised energy level(s) associated with the defect. You may need to specify an initial condition for the magnetic moments to find the lowest energy electronic configuration.
 
 ### Part 3: Optical Properties — Analysis and Discussion (40 marks, powerpoint walkthrough, individual work)
 
-1. Create a simple defect electronic level schematic, showing the host valence band, conduction band, and in-gap defect state(s) for your material. 
+1. Create a simple defect electronic level schematic, showing the host valence band, conduction band, and in-gap defect state(s) for your material. If you could not compute a defect state position then you can use a value from the literature. 
 2. You use a number of approximations (e.g. DFT with a relatively small supercell, inexpensive basis functions, course sampling in reciprocal space, a machine-learnt surrogate model), and the defect is in a neutral charge state — which of these approximations do you think contributes most to any discrepancy with the experimental ZPL?
 
 ---
