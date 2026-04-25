@@ -1,6 +1,19 @@
 format: jb-book
 root: intro
-chapters:
+parts:
+- caption: Module Details
+  numbered: false
+  chapters:
+  - file: Contents
+  - file: Learning
+    title: "Learning Outcomes"
+  - file: Resources
+    title: "Resources"
+  - file: Assignment
+    title: "Assignment"
+- caption: Tutorials
+  numbered: true
+  chapters:
   - file: Lecture1
     title: "1. Introduction to ASE"
   - file: Lecture2
@@ -19,7 +32,6 @@ chapters:
     title: "8. Structure Optimisation"
   - file: Lecture9
     title: "9. Materials for Quantum and Molecular Optics"
-  - file: Assignment
-    title: "Assignment"
-  - file: Resources
-    title: "Resources"
+
+
+    
