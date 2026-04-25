@@ -6,8 +6,6 @@
 
 Online resource for a practical undergraduate course in atomistic simulation, with applications to materials for quantum and molecular optics.
 
-Developed in the [Computational Materials Physics](https://lucywhalley.uk) group at Northumbria University.
-
 ## Course Website
 
 View the book at: **https://nu-cem.github.io/Materials_Simulation**
