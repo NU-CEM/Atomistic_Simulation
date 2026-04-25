@@ -1,16 +1,17 @@
 # Assignment
 
-## Materials Simulation Assignment
+## Materials Simulation for Quantum and Molecular Optics Assignment
 
-**Submission deadline:** Please check your course handbook.  
-**Weighting:** See course handbook.  
-**Format:** Jupyter Notebook submitted via the course portal.
+**Format:** Jupyter Notebook submitted via Blackboard.   
+**Further Details:** Available on Blackboard.
 
 ---
 
 ## Overview
 
-This assignment asks you to conduct a computational study of a **solid-state quantum emitter** of your choice from the list below. You will use ASE (and a DFT calculator if available to you) to characterise the host material and defect structure, and present your findings in a well-documented Jupyter Notebook.
+This assignment asks you to conduct a computational study of a **solid-state quantum emitter** of your choice from the list below. You will use ASE, DFT and MLIPs to characterise the host material and defect structure, and present your findings in a **well-documented** Jupyter Notebook and video walkthrough. 
+
+You will work in small groups to produce the Jupyter Notebook (one notebook per group). All asynchronous discussion and code-sharing must be done through a dedicated Teams channel. 
 
 ---
 
@@ -32,34 +33,35 @@ You may propose an alternative system with approval from the course instructor.
 
 ### Part 1: Host Material (30 marks)
 
-1. Build the primitive unit cell of your chosen host material using ASE. State the crystal structure, space group, and lattice parameters.
-2. Create a supercell appropriate for a defect calculation. Justify your choice of supercell size by estimating the minimum image distance between periodic defect copies.
-3. Write the structure to both CIF and POSCAR formats. Include both files in your submission.
-4. **(If DFT access is available)** Compute the equation of state and extract the equilibrium lattice constant and bulk modulus. Compare to experimental or literature values.
-5. Plot the high-symmetry Brillouin zone path for your host material and identify the location of the valence band maximum (VBM) and conduction band minimum (CBM). State whether the bandgap is direct or indirect and explain what this means for optical emission.
+1. Build the primitive unit cell of your chosen host material using ASE. Print out the crystal structure, space group, and lattice parameters.
+2. Create a supercell appropriate for a defect calculation. Print out the crystal structure, space group, and lattice parameters. Justify your choice of supercell size by estimating the distance between periodic defect copies. 
+4. Compute the equation of state and extract the equilibrium lattice constant and bulk modulus. Compare to experimental or literature values.
+5. Compute the bandstructure for your host material and identify the location of the valence band maximum (VBM) and conduction band minimum (CBM). State whether the bandgap is direct or indirect and explain what this means for optical emission.
 
 ### Part 2: Defect Structure (30 marks)
 
-1. Introduce the defect into your supercell (substitution, vacancy creation, or both). Document each step with code and prose.
-2. State the point symmetry of the defect complex and identify the symmetry operations.
-3. **(If DFT access is available)** Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) the displacement of the nearest-neighbour atoms around the defect.
-4. Sketch (or generate computationally) the defect electronic level diagram, showing the host valence band, conduction band, and in-gap defect states. Label the charge state and spin state.
+1. Introduce the defect into your supercell. 
+3. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) the displacement of the nearest-neighbour atoms around the defect.
+4. Sketch (or generate computationally) the defect electronic level diagram, showing the host valence band, conduction band, and in-gap defect states. 
 
 ### Part 3: Optical Properties — Analysis and Discussion (40 marks)
 
-1. Draw the configuration coordinate diagram for your chosen emitter. Label: ZPL energy, Stokes shift, absorption energy, emission energy, and reorganisation energy. Use literature values where computation is not available.
-2. Explain the physical meaning of the Huang-Rhys factor $S$ for your system. Find a published value and comment on whether the ZPL fraction ($\approx e^{-S}$) is favourable for quantum optics applications.
-3. Discuss **two** key challenges for using this system in a real quantum optics device (e.g. collection efficiency, spectral diffusion, dephasing, charge instability). For each challenge, describe one approach — experimental or computational — that is being pursued to address it.
-4. Identify **one recent paper** (published 2020–present) that uses computational methods to study this quantum emitter. Summarise the key computational method and result in your own words (200–300 words).
+1. Draw the configuration coordinate diagram for your chosen emitter. Label: ZPL energy, Stokes shift, absorption energy, emission energy, and reorganisation energy. Use literature values if computation is not possible.
+2. Explain the physical meaning of the Huang-Rhys factor $S$. Find a published value and comment on whether the ZPL fraction ($\approx e^{-S}$) is favourable for quantum optics applications.
+3. Discuss **two** key challenges for using this system in a real quantum optics device. For each challenge, describe one approach — experimental or computational — that is being pursued to address it.
+4. Identify **one recent paper** (published 2015–present) that uses computational methods to study this quantum emitter. Summarise the key computational method and result in your own words (200–300 words).
 
 ---
 
 ## Submission Requirements
 
+### Lab Notebook - group work
 - A single Jupyter Notebook (`.ipynb`) with all code, figures, and discussion
-- All code cells must be executable (test with "Restart and Run All" before submitting)
-- Any external data files (CIF, POSCAR) included alongside the notebook
-- References formatted consistently (e.g. APA or Vancouver)
+- All code cells must be executable
+- References formatted consistently
+
+### Video Walkthrough - individual work
+- A video walkthrough (up to 5 minutes) highlighting: i) key design decisions; ii) outstanding challenges.
 
 ## Assessment Criteria
 
@@ -70,17 +72,6 @@ You may propose an alternative system with approval from the course instructor.
 | Physical understanding demonstrated in discussion | 30 |
 | Engagement with primary literature | 15 |
 | Code clarity, comments, and reproducibility | 10 |
-
----
-
-## Hints and Resources
-
-- The [ASE documentation](https://wiki.fysik.dtu.dk/ase/) is your primary reference
-- The [Materials Project](https://materialsproject.org) provides starting structures and reference DFT data
-- The [Defects in Semiconductors](https://www.sciencedirect.com/book/9780080519425/defects-in-semiconductors) textbook is useful background reading
-- For quantum optics context: Aharonovich et al., *Nature Photonics* 10, 631 (2016) is an excellent review
-- The [SHAKENBREAK](https://shakenbreak.readthedocs.io/) code is useful for exploring defect geometries beyond standard relaxation
-- Post questions to the course discussion forum — do not share code solutions
 
 ---
 
