@@ -9,7 +9,7 @@
 
 ## Overview
 
-This assignment asks you to conduct a computational study of a **solid-state quantum emitter** of your choice from the list below. You will use ASE, DFT and MLIPs to characterise the host material and defect structure, and present your findings in a **well-documented** Jupyter Notebook and video walkthrough. 
+This assignment asks you to conduct a computational study of a **solid-state quantum emitter** of your choice from the list below. You will use ASE, DFT and MLIPs to characterise the host material and defect structure and investigate how strain can be used to tune the defect energy level. You will present your findings in a **well-documented** Jupyter Notebook and video walkthrough. 
 
 You will work in small groups to produce the Jupyter Notebook (one notebook per group). All asynchronous discussion and code-sharing must be done through a dedicated Teams channel. 
 
@@ -25,7 +25,7 @@ You will work in small groups to produce the Jupyter Notebook (one notebook per 
 | **D** | AlN | Rare-earth substitutional (Eu³⁺ on Al site) | ~580 nm |
 | **E** | SiC (4H polytype) | Divacancy (V_Si V_C) | ~1100 nm |
 
-You may propose an alternative system with approval from the course instructor.
+All defects should be considered in their neutral charge state. You may propose an alternative defect system with approval from the course instructor. For structural relaxations you are encouraged to use MACE MP-0. For electronic structure you are encouraged to use DFT with the lcao basis set and gamma-point sampling.
 
 ---
 
@@ -33,23 +33,22 @@ You may propose an alternative system with approval from the course instructor.
 
 ### Part 1: Host Material (30 marks)
 
-1. Build the primitive unit cell of your chosen host material using ASE. Print out the crystal structure, space group, and lattice parameters.
-2. Create a supercell appropriate for a defect calculation. Print out the crystal structure, space group, and lattice parameters. Justify your choice of supercell size by estimating the distance between periodic defect copies. 
+1. Build the primitive unit cell of your chosen host material using ASE. Print out a summary of the structural properties (crystal structure, space group, and lattice parameters).
+2. Create a supercell appropriate for a defect calculation. Justify your choice of supercell size by estimating the distance between periodic defect copies. 
 4. Compute the equation of state and extract the equilibrium lattice constant and bulk modulus. Compare to experimental or literature values.
 5. Compute the bandstructure for your host material and identify the location of the valence band maximum (VBM) and conduction band minimum (CBM). State whether the bandgap is direct or indirect and explain what this means for optical emission.
 
-### Part 2: Defect Structure (30 marks)
+### Part 2: Defect System (30 marks)
 
 1. Introduce the defect into your supercell. 
-3. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) the displacement of the nearest-neighbour atoms around the defect.
-4. Sketch (or generate computationally) the defect electronic level diagram, showing the host valence band, conduction band, and in-gap defect states. 
+2. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) displacement of the surrounding atoms as a function of distance from the defect.
+3. Compute the bandstructure for your defect system and identify the localised energy level(s) associated with the defect.
 
-### Part 3: Optical Properties — Analysis and Discussion (40 marks)
+### Part 3: Optical Properties — Analysis and Discussion (40 marks, powerpoint walkthrough)
 
-1. Draw the configuration coordinate diagram for your chosen emitter. Label: ZPL energy, Stokes shift, absorption energy, emission energy, and reorganisation energy. Use literature values if computation is not possible.
-2. Explain the physical meaning of the Huang-Rhys factor $S$. Find a published value and comment on whether the ZPL fraction ($\approx e^{-S}$) is favourable for quantum optics applications.
-3. Discuss **two** key challenges for using this system in a real quantum optics device. For each challenge, describe one approach — experimental or computational — that is being pursued to address it.
-4. Identify **one recent paper** (published 2015–present) that uses computational methods to study this quantum emitter. Summarise the key computational method and result in your own words (200–300 words).
+1. Create a simple defect electronic level schematic, showing the host valence band, conduction band, and in-gap defect state(s) for your material. 
+1. You used DFT with a relatively small supercell, inexpensive basis functions, course sampling in reciprocal space and the defect is in a neutral charge state — which of these approximations do you think contributes most to any discrepancy with the experimental ZPL?
+3. Discuss **two** key challenges for using this system in a real quantum optics device. For each challenge, describe one approach — experimental or computational — that is being pursued to address it. Reference at least **two recent papers** (2015-present) in your answer.
 
 ---
 
