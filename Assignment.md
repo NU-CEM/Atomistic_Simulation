@@ -41,7 +41,7 @@ All defects should be considered in their neutral charge state. You may propose 
 ### Part 2: Defect System (20 marks, jupyter notebook, group work)
 
 1. Introduce the defect into your supercell. 
-2. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) displacement of the surrounding atoms as a function of distance from the defect.
+2. Relax the defect supercell geometry and report: (a) the maximum residual force before and after relaxation, (b) displacement of the surrounding atoms as a function of distance from the defect. You may need to rattle your defect supercell to find the lowest energy configuration.
 3. Compute the bandstructure for your defect system and identify the localised energy level(s) associated with the defect.
 
 ### Part 3: Optical Properties — Analysis and Discussion (40 marks, powerpoint walkthrough, individual work)
