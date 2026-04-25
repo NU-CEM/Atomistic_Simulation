@@ -9,6 +9,7 @@
 - [nglview](https://nglviewer.org/nglview/latest/) — interactive 3D molecular viewer for Jupyter
 
 ### Useful complementary packages
+- [vesta](https://jp-minerals.org/vesta/en/download.html) - visualisation tool
 - [pymatgen](https://pymatgen.org/) — materials analysis library; excellent for symmetry analysis
 - [spglib](https://spglib.github.io/spglib/) — space group library (used by both ASE and pymatgen)
 - [phonopy](https://phonopy.github.io/phonopy/) — phonon calculations
