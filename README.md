@@ -1,4 +1,4 @@
-[![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
 [![deploy-book](https://github.com/NU-CEM/Materials_Simulation/actions/workflows/deploy.yml/badge.svg)](https://github.com/NU-CEM/Materials_Simulation/actions/workflows/deploy.yml)
 [![CC-BY license](https://img.shields.io/badge/License-CC--BY-blue.svg)](https://creativecommons.org/licenses/by/4.0)
 
