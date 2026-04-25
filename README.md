@@ -1,87 +1,68 @@
-# KL6003 Atomistic Simulation 
+[![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[![deploy-book](https://github.com/NU-CEM/Materials_Simulation/actions/workflows/deploy.yml/badge.svg)](https://github.com/NU-CEM/Materials_Simulation/actions/workflows/deploy.yml)
+[![CC-BY license](https://img.shields.io/badge/License-CC--BY-blue.svg)](https://creativecommons.org/licenses/by/4.0)
 
-An undergraduate programme in atomistic simulation, with a specific focus on materials which can be deployed in quantum optics simulations.
+# Materials Simulation for Quantum and Molecular Optics
 
-### Software setup
+Online resource for a practical undergraduate course in atomistic simulation, with applications to materials for quantum and molecular optics.
 
-The programme is based around Python open-source software. The following Python packages need to be installed:
+Developed in the [Computational Materials Physics](https://lucywhalley.uk) group at Northumbria University.
 
-- The standard scientific stack, available through [Anaconda](https://www.anaconda.com/docs/getting-started/anaconda/install/overview): Numpy, Scipy, Matplotlib, Jupyter
-- [Atomic Simulation Environment](https://ase-lib.org/install.html)
-- [GPAW](https://gpaw.readthedocs.io/install.html#installation)
-- [MACE](https://github.com/acesuit/mace#installation)
+## Course Website
 
-### Course outline
+View the book at: **https://nu-cem.github.io/Materials_Simulation**
 
-The course is based around a series of ten tutorials. It is assessed through a combination of a group software project, and an individual presentation.
+## Course Description
 
-#### Tutorial one: Introduction
+*Materials Simulation* provides a practical introduction to atomistic simulation using the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/). It is aimed at undergraduate students in physics, chemistry, or materials science.
 
-1. Motivation and scope
-2. A brief history of materials simulation
-3. Expectations and assessments
+The course develops core simulation skills — building structures, running calculators, computing electronic structure, performing MD and geometry optimisation — and applies them to materials of current interest in quantum and molecular optics: single-photon emitters, quantum defects, wide-bandgap semiconductors, and 2D materials.
 
-Exercise: Scientific programming
+## Contents
 
-#### Tutorial two: Materials Simulation Basics
+| Lecture | Topic | Key skills |
+|---------|-------|-----------|
+| 1 | Introduction to ASE | Import ASE, EMT calculator, ASE ecosystem |
+| 2 | The Atoms Object | Build, visualise, get/set properties |
+| 3 | Reading and Writing Structures | I/O formats, trajectories, databases |
+| 4 | Building and Manipulating Structures | Supercells, point defects, surfaces |
+| 5 | Calculators and Computing Properties | EOS, file-based calculators, k-point convergence |
+| 6 | Electronic Structure | Band structure, DOS, direct/indirect gaps |
+| 7 | Molecular Dynamics | NVE/NVT ensembles, observers, VACF |
+| 8 | Structure Optimisation | BFGS, FIRE, constraints, defect relaxation |
+| 9 | Materials for Quantum and Molecular Optics | NV centre, hBN V_B, QDs, rare-earth ions |
 
-1. What is materials simulation, and how does it relate to physics? (Composition-Structure-Property relationships)
-2. Why is materials simulation important?
-3. Which methods do we commonly use to simulate materials?
-4. Where does this course fit in?
+## Building the Book Locally
 
-Exercise: The Materials Project
+Install Jupyter Book:
 
-#### Tutorial three: Working with atoms
+```bash
+pip install jupyter-book
+```
 
-1. How can I describe a molecule of crystal using the Atoms class?
-2. How can I access and adjust Atoms information?
-3. How do I read/write structure(s) from/to a file?
-4. How do I visualise structures?
+Clone this repository and build:
 
-Exercise: The lattice parameter of gold
+```bash
+git clone https://github.com/NU-CEM/Materials_Simulation
+cd Materials_Simulation
+jupyter-book build .
+```
 
-#### Tutorial four: Manipulating atoms
+Open `_build/html/index.html` in your browser.
 
-1. How can I build molecules?
-2. How can I build and bulk structures?
-3. How can I create supercells?
-4. How can I create point defects?
+## Running Notebooks
 
-Exercise: 
+Each notebook can be run:
+- **On Google Colab**: click the 🚀 button at the top of any page on the website
+- **Locally**: install requirements with `pip install -r requirements.txt`, then `jupyter notebook`
+- **On Binder**: click the Binder button at the top of any page
 
-#### Tutorial five: Potential energy and equilibrium structure
+## Acknowledgements
 
-1. What is Effective Medium Theory (EMT)?
-2. How can I use EMT to calculate the potential energy of metal alloy systems?
-3. How can I fit simple models to my data?
-4. How can I identify the equilibrium structure?
+Core ASE content is adapted from the [Open Science with ASE workshop tutorials](https://ase-workshop-2023.github.io/tutorial/) (Pietro Delugas, Adam Jackson, Lucy Whalley; CC-BY 4.0). The Jupyter Book infrastructure is inspired by [MLforMaterials](https://github.com/aronwalsh/MLforMaterials) (Aron Walsh; CC0).
 
-#### Tutorial six: Local optimisation
+## Licence
 
-1. What is Density Functional Theory (DFT)?
-2. How can I use DFT to optimise atom positions?
-3. How can I use DFT to optimise other degrees of freedom?
+[Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-#### Tutorial seven: Electronic structure 
-  
-2. How can I use DFT to produce an electronic bandstructure?
-3. How can I use DFT to produce an electronic density of states?
-4. How can I test for k-point convergence?
-
-#### Tutorial eight: Machine-Learnt Interatomic Potentials 
-
-1. What are Machine-Learnt Interatomic Potentials (MLIPs)?
-2. How can I use MLIPs to identify equilibrium positions?
-3. How can I use MLIPs to perform a screening study?
-
-#### Tutorial nine: Molecular Dynamics
-
-1. How can I use Molecular Dynamics (MD) to evolve a system over time?
-2. How can I track system properties over time?
-3. How can I generate disordered structures?
-4. How can I relax disordered structures?
-
-#### Tutorial ten: Point Defects
-
-
+You are free to share and adapt this material, provided you give appropriate credit.

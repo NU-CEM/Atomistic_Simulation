@@ -1,0 +1,6 @@
+jupyter-book
+ase
+matplotlib
+numpy
+nglview
+ipywidgets
