@@ -1,10 +1,10 @@
-# Materials Simulation for Quantum and Molecular Optics
+# Materials Simulation for Quantum and Molecular Photonics
 
-Welcome to *Materials Simulation*, a practical undergraduate course in atomistic simulation methods applied to materials for quantum and molecular optics.
+Welcome to *Materials Simulation for Quantum and Molecular Photonics*, a practical undergraduate course in atomistic simulation methods applied to materials for quantum and molecular photonics.
 
 ## Course Description
 
-This course introduces the computational tools and concepts needed to model the structural, electronic, and dynamical properties of materials. We use [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) as our primary software framework, which provides a clean Python interface to a wide range of electronic structure codes, force fields, and analysis tools.
+This course introduces the computational tools and concepts needed to model the structural, electronic, and defect properties of materials. We use [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) as our primary software framework, which provides a clean Python interface to a range of pre-processing tools, electronic structure codes and analysis tools.
 
 The course has a dual focus:
 - **Core simulation skills** that are transferable across all areas of materials research
