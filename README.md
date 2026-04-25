@@ -57,7 +57,7 @@ Each notebook can be run:
 
 ## Acknowledgements
 
-Core ASE content is adapted from the [Open Science with ASE workshop tutorials](https://ase-workshop-2023.github.io/tutorial/) (Pietro Delugas, Adam Jackson, Lucy Whalley; CC-BY 4.0). The Jupyter Book infrastructure is inspired by [MLforMaterials](https://github.com/aronwalsh/MLforMaterials) (Aron Walsh; CC0).
+Core ASE content is adapted from the [Open Science with ASE workshop tutorials](https://ase-workshop-2023.github.io/tutorial/) (Adam Jackson and Lucy Whalley). 
 
 ## Licence
 
