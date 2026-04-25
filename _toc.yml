@@ -5,6 +5,7 @@ parts:
   numbered: false
   chapters:
   - file: Contents
+    title: "Module Contents"
   - file: Learning
     title: "Learning Outcomes"
   - file: Resources
