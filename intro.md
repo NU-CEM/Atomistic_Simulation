@@ -4,11 +4,11 @@ Welcome to *Materials Simulation*, a practical undergraduate course in atomistic
 
 ## Course Description
 
-This course introduces the computational tools and concepts needed to model the structural, electronic, and dynamical properties of real materials. We use [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) as our primary framework, which provides a clean Python interface to a wide range of electronic structure codes, force fields, and analysis tools.
+This course introduces the computational tools and concepts needed to model the structural, electronic, and dynamical properties of materials. We use [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) as our primary software framework, which provides a clean Python interface to a wide range of electronic structure codes, force fields, and analysis tools.
 
 The course has a dual focus:
 - **Core simulation skills** that are transferable across all areas of materials research
-- **Application examples** drawn from quantum and molecular optics: single-photon emitters, optically active defects, photonic semiconductors, and 2D materials
+- **Application examples** drawn from quantum and molecular optics: single-photon emitters, optically active defects, photonic semiconductors, and 2D materials.
 
 ## Who is this course for?
 
@@ -42,6 +42,6 @@ Each lecture is a self-contained Jupyter Notebook. You can:
 
 ## Acknowledgements
 
-Much of the core ASE content is adapted from the [Open Science with ASE workshop tutorials](https://ase-workshop-2023.github.io/tutorial/) (CC-BY 4.0) developed by Pietro Delugas, Adam Jackson, and Lucy Whalley. The Jupyter Book setup is inspired by [MLforMaterials](https://github.com/aronwalsh/MLforMaterials) by Aron Walsh.
+Much of the core ASE content is adapted from the [Open Science with ASE workshop tutorials](https://ase-workshop-2023.github.io/tutorial/) (CC-BY 4.0) developed by Adam Jackson and Lucy Whalley. 
 
-This course is developed at [Northumbria University](https://www.northumbria.ac.uk/).
+This course is developed by Lucy Whalley and James Quirk at [Northumbria University](https://www.northumbria.ac.uk/).
