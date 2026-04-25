@@ -1,6 +1,9 @@
 jupyter-book==0.15.1
+mace-torch
+gpaw
 ase
 matplotlib
 numpy
+jupyterlab
 nglview
 ipywidgets
