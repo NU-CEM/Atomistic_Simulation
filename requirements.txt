@@ -1,4 +1,6 @@
 jupyter-book
+jupyterlab_myst
+myst-nb
 ase
 matplotlib
 numpy
