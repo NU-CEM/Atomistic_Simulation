@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Materials Simulation for Quantum and Molecular Optics
+title: Atomistic Simulation for Quantum and Molecular Optics
 author: Lucy Whalley
 logo: logo.png
 copyright: "2026"
@@ -27,8 +27,8 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/NU-CEM/Materials_Simulation
-  branch: main
+  url: https://github.com/NU-CEM/Atomistic_Simulation
+  branch: 2026
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
