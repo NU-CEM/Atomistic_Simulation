@@ -4,34 +4,34 @@ parts:
 - caption: Module Details
   numbered: false
   chapters:
-  - file: Contents
+  - file: contents
     title: "Module Contents"
-  - file: Learning
+  - file: learning
     title: "Learning Outcomes"
-  - file: Resources
+  - file: resources
     title: "Resources"
-  - file: Assignment
+  - file: assignment
     title: "Assignment"
 - caption: Tutorials
   numbered: true
   chapters:
-  - file: Lecture1
+  - file: notebooks/Lecture1
     title: "1. Introduction to ASE"
-  - file: Lecture2
+  - file: notebooks/Lecture2
     title: "2. The Atoms Object"
-  - file: Lecture3
+  - file: notebooks/Lecture3
     title: "3. Reading and Writing Structures"
-  - file: Lecture4
+  - file: notebooks/Lecture4
     title: "4. Building and Manipulating Structures"
-  - file: Lecture5
+  - file: notebooks/Lecture5
     title: "5. Calculators and Computing Properties"
-  - file: Lecture6
+  - file: notebooks/Lecture6
     title: "6. Electronic Structure"
-  - file: Lecture7
+  - file: notebooks/Lecture7
     title: "7. Molecular Dynamics"
-  - file: Lecture8
+  - file: notebooks/Lecture8
     title: "8. Structure Optimisation"
-  - file: Lecture9
+  - file: notebooks/Lecture9
     title: "9. Materials for Quantum and Molecular Optics"
 
 
