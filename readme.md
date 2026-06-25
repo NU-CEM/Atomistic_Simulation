@@ -21,15 +21,15 @@ The course develops core simulation skills — building structures, running calc
 | Lecture | Title | Topics | Key Skills | Exercise |
 |---------|-------|-----------|--------|---------|
 
-| 1 | Introduction | Motivation and scope, A brief history of atomistic simulation, Expectations and assessments | Software setup| Scientific programming|
+| 1 | Introduction | Motivation and scope, A brief history of atomistic simulation, Expectations and assessments | Software setup | Scientific programming |
 | 2 | Atomistic Simulation Basics | Composition-Structure-Property relationships, Atomistic simulation methods overview | | The Materials Project |
-| 3 | Reading and Writing Structures | I/O formats, trajectories, databases |
-| 4 | Building and Manipulating Structures | Supercells, point defects, surfaces |
-| 5 | Calculators and Computing Properties | EOS, file-based calculators, k-point convergence |
-| 6 | Electronic Structure | Band structure, DOS, direct/indirect gaps |
-| 7 | Molecular Dynamics | NVE/NVT ensembles, observers, VACF |
-| 8 | Structure Optimisation | BFGS, FIRE, constraints, defect relaxation |
-| 9 | Materials for Quantum and Molecular Optics | NV centre, hBN V_B, QDs, rare-earth ions |
+| 3 | Reading and Writing Structures | I/O formats, trajectories, databases | | |
+| 4 | Building and Manipulating Structures | Supercells, point defects, surfaces || |
+| 5 | Calculators and Computing Properties | EOS, file-based calculators, k-point convergence || |
+| 6 | Electronic Structure | Band structure, DOS, direct/indirect gaps || |
+| 7 | Molecular Dynamics | NVE/NVT ensembles, observers, VACF || |
+| 8 | Structure Optimisation | BFGS, FIRE, constraints, defect relaxation || |
+| 9 | Materials for Quantum and Molecular Optics | NV centre, hBN V_B, QDs, rare-earth ions || |
 
 
 
