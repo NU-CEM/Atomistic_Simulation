@@ -38,8 +38,9 @@ Each lecture is a self-contained Jupyter Notebook. You can:
 | 6. Local Optimisation | Introduction to DFT; optimising atomic positions; optimising the unit cell | GPAW setup and convergence; geometry relaxation | Relaxing a crystal structure with DFT |
 | 7. Electronic Structure | Electronic bandstructure; density of states; k-point convergence | GPAW bandstructure and DOS calculations; k-point convergence tests | Bandstructure of silicon |
 | 8. Machine-Learnt Interatomic Potentials | What are MLIPs and when should I use them?; using MACE for geometry optimisation; screening studies | MACE calculator; high-throughput structure relaxation | Screening lattice parameters across a material family |
-| 9. Molecular Dynamics | MD for time evolution; tracking thermodynamic properties; generating and relaxing disordered structures | NVT/NPT MD with ASE; trajectory analysis | Thermal expansion of a crystal |
-| 10. Point Defects | Defect supercells; geometry relaxation with MLIPs; electronic structure of defect systems; relevance to quantum emitters | Defect creation in ASE; MACE relaxation; GPAW DOS for defect systems | NV centre in diamond |
+| 9. Point Defects | Defect supercells; geometry relaxation with MLIPs; electronic structure of defect systems; relevance to quantum emitters | Defect creation in ASE; MACE relaxation; GPAW DOS for defect systems | NV centre in diamond |
+| 10. Molecular Dynamics | MD for time evolution; tracking thermodynamic properties; generating and relaxing disordered structures | NVT/NPT MD with ASE; trajectory analysis | Thermal expansion of a crystal |
+
 
 ## Acknowledgements
 
