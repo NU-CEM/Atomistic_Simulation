@@ -3,7 +3,7 @@
 ## Software
 
 ### Core tools used in this course
-- [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) — the framework used throughout
+- [ASE (Atomic Simulation Environment)](https://wiki.fysik.dtu.dk/ase/) — software framework used throughout
 - [GPAW](https://gpaw.readthedocs.io/) — Density functional theory 
 - [MACE](https://github.com/acesuit/mace) - Machine-learned interatomic potentials
 - [nglview](https://nglviewer.org/nglview/latest/) — interactive 3D molecular viewer for Jupyter
