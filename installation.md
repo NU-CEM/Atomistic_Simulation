@@ -1,22 +1,32 @@
-# Installation Guide
+# Software setup guide
 
-This page explains how to run the course materials. There are two options: running in the cloud (no installation required) or running locally on your own computer.
+This course uses specialist scientific software for atomistic modelling: Atomistic Simulation Environment, GPAW and MACE. All of the software is Python-based and open source. 
 
----
+Specialist scientific software can be very powerful, but setup is not always as straight forward as installing e.g. Microsoft Word.
 
-## Option 1: Run in the Cloud (Recommended for Beginners)
-
-No installation is needed. Every notebook has a **launch button** (🚀) at the top of the page. Click it and choose **Google Colab** to open and run the notebook directly in your browser.
-
-You will need a Google account. Your work is saved to your Google Drive automatically.
-
-> **Note:** A small number of exercises require GPAW, which is not available on Colab. These are clearly marked in the notebooks. For those exercises, you will need to run locally (see Option 2) or use the university computing cluster.
+For this course you have three options for running the software: i) running via a remote Jupyter Lab server (no installation required, more details will be provided in class); running in the cloud (no installation required, but limited functionality); iii) running locally on your own computer (installation required, and not suitable for all).
 
 ---
 
-## Option 2: Run Locally
+## Option 1: Run in the university Jupyter Lab server
 
-Running locally gives you the best performance and full access to all software, including GPAW.
+More details will be provided in class.
+
+---
+
+## Option 2: Run in the Cloud 
+
+No installation is needed. Every notebook has a **launch button** (🚀) at the top of the page. Click it and choose **Google Colab** to open and run the notebook directly in your browser. You will need a Google account. 
+
+> **Note:** A small number of exercises require GPAW, which is not available on Colab. These are clearly marked in the notebooks. For those exercises, you will need to  use university resources (see Option 1) or run locally (see Option 3).
+
+---
+
+## Option 3: Run Locally
+
+Running locally gives you more flexibility, but requires careful installation.
+
+> **Note:** A small number of exercises require GPAW, which is not available on Windows based systems. These are clearly marked in the notebooks. For those exercises, you will need to use university resources (see Option 1).
 
 ### Step 1: Install Miniforge
 
