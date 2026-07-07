@@ -42,13 +42,13 @@ By the end of each session, students should be able to:
 - Use the MACE-MP-0 potential to relax a crystal structure
 - Design and run a simple screening study across a set of structures or compositions
 
-## 9. Molecular Dynamics
-- Set up and run an NVT or NPT molecular dynamics simulation using ASE
-- Extract and plot thermodynamic properties (temperature, energy, pressure) from a trajectory
-- Generate a disordered structure via high-temperature MD followed by quench relaxation
-
-## 10. Point Defects
+## 9. Point Defects
 - Construct a defect supercell and assess its suitability for a DFT or MLIP calculation
 - Relax a defect geometry using MACE and report key structural changes
 - Compute a density of states for a defect system and identify in-gap defect states
 - Connect computed defect properties to experimentally observable quantities such as zero-phonon line emission
+
+## 10. Molecular Dynamics
+- Set up and run an NVT or NPT molecular dynamics simulation using ASE
+- Extract and plot thermodynamic properties (temperature, energy, pressure) from a trajectory
+- Generate a disordered structure via high-temperature MD followed by quench relaxation
