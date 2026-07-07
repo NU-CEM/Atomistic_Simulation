@@ -16,21 +16,6 @@ View the book at: **https://nu-cem.github.io/Atomistic_Simulation**
 
 The course develops core simulation skills — building structures, running calculators, computing electronic structure, performing MD and geometry optimisation — and applies them to materials of current interest in quantum and molecular optics: single-photon emitters, wide-bandgap semiconductors, and 2D materials.
 
-## Contents
-
-| Lecture | Title | Topics | Exercise |
-|---------|-------|-----------|---------|
-| 1 | Introduction | Motivation and scope, A brief history of atomistic simulation, Expectations and assessments | Software setup |
-| 2 | Atomistic Simulation Basics | Composition-Structure-Property relationships, Atomistic simulation methods overview | Finding first-principles data |
-| 3 | Reading and Writing Atoms |  `Atoms` class, I/O formats, Visualising atomic structures | Exploring crystal symmetry |
-| 4 | Manipulating Atoms | Supercells, Point defects, Interfaces| Creating complex materials |
-| 5 | Potential Energy and Equations of State | ASE calculators, Effective Medium Theory, Equations of State | The lattice parameter of gold I |
-| 6 | Local Optimisiation | Density Functional Theory, Convergence, Geometry relaxation | The lattice parameter of gold II |
-| 7 | Electronic Structure | Bandstructures, density of states | Convergence testing |
-| 8 | Point Defects | Defect types, NV centre | Identifying deep defects |
-| 9 | Machine Learning Interatomic Potentials | MACE, Foundational models | Relaxing point defects |
-
-
 ## Building the Book Locally
 
 Install Jupyter Book:
