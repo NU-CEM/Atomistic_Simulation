@@ -28,7 +28,7 @@ Each lecture is a self-contained Jupyter Notebook. You can:
 
 ## Course Structure
 
-| Lecture | Topics | Skills | Exercise |
+| Lab | Topics | Skills | Exercise |
 |---------|--------|--------|----------|
 | 1. Introduction | Motivation and scope; brief history of atomistic simulation; expectations and assessment | Setting up a Python environment; navigating Jupyter notebooks | Scientific programming warm-up |
 | 2. Atomistic Simulation Basics | Composition-structure-property relationships; overview of simulation methods; where DFT, MLIPs, and MD fit in | Using the Materials Project database; interpreting crystal structure data | Exploring the Materials Project |
