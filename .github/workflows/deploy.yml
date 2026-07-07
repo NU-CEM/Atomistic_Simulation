@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 2026
+  workflow_dispatch:
 
 jobs:
   deploy-book:
