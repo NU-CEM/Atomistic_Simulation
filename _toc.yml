@@ -18,22 +18,23 @@ parts:
   numbered: true
   chapters:
   - file: notebooks/introduction
-    title: "1. Introduction"
+    title: "Introduction"
   - file: notebooks/materials_basics
-    title: "2. Atomistic Simulation Basics"
+    title: "Atomistic Simulation Basics"
   - file: notebooks/working_with_atoms
-    title: "3. Working with Atoms"
+    title: "Working with Atoms"
   - file: notebooks/manipulating_atoms
-    title: "4. Manipulating Atoms"
+    title: "Manipulating Atoms"
   - file: notebooks/potential_energy
-    title: "5. Potential Energy and Equilibrium Structure"
+    title: "Potential Energy and Equilibrium Structure"
   - file: notebooks/local_optimisation
-    title: "6. Local Optimisation"
+    title: "Local Optimisation"
   - file: notebooks/electronic_structure
-    title: "7. Electronic Structure"
+    title: "Electronic Structure"
   - file: notebooks/machine_learned_interatomic_potentials
-    title: "8. Machine-Learned Interatomic Potentials"
-  - file: notebooks/molecular_dynamics
-    title: "9. Molecular Dynamics"
+    title: "Machine-Learned Interatomic Potentials"
   - file: notebooks/point_defects
-    title: "10. Point Defects"
+    title: "Point Defects"
+  - file: notebooks/molecular_dynamics
+    title: "Molecular Dynamics"
+
