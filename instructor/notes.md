@@ -3,6 +3,8 @@
 - could also think about varying chemistry (carbon monolayers)
 - need to show eos for layered material
 
+speak to Marc and Juna and show them what I'm planning to cover. Ask to see their resources so I can make links between the two.
+
 I want to make an example notebook for another question, to show the depth of thinking that is required for top marks.
 
 Group assignment: For that size I'd probably go with a short Google Form asking:
