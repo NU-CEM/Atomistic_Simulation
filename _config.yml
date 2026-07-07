@@ -3,7 +3,7 @@
 
 title: Atomistic Simulation for Quantum and Molecular Optics
 author: Lucy Whalley
-logo: logo.png
+logo: ./images/logo.png
 copyright: "2026"
 
 # Force re-execution of notebooks on each build.
