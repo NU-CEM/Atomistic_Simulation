@@ -1,10 +1,2 @@
 jupyter-book==0.15.1
-mace-torch
-spglib
-gpaw
-ase
-matplotlib
-numpy
-jupyterlab
-nglview
-ipywidgets
+
