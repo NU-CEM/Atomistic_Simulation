@@ -20,17 +20,15 @@ parts:
   - file: notebooks/working_with_atoms
     title: "Working with Atoms"
   - file: notebooks/manipulating_atoms
-    title: "Manipulating Atoms"
+    title: "Building Point Defects"
   - file: notebooks/potential_energy
-    title: "Potential Energy and Equilibrium Structure"
+    title: "Potential Energy and EMT"
   - file: notebooks/local_optimisation
-    title: "Local Optimisation"
+    title: "Local Optimisation and DFT"
   - file: notebooks/electronic_structure
     title: "Electronic Structure"
   - file: notebooks/machine_learned_interatomic_potentials
     title: "Machine-Learned Interatomic Potentials"
-  - file: notebooks/point_defects
-    title: "Point Defects"
   - file: notebooks/molecular_dynamics
     title: "Molecular Dynamics"
 
