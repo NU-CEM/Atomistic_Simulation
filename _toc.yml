@@ -8,8 +8,6 @@ parts:
     title: "Module Contents"
   - file: learning
     title: "Learning Outcomes"
-  - file: installation
-    title: "Installation"
   - file: resources
     title: "Resources"
   - file: assignment
