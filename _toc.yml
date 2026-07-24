@@ -6,8 +6,6 @@ parts:
   chapters:
   - file: contents
     title: "Module Contents"
-  - file: learning
-    title: "Learning Outcomes"
   - file: resources
     title: "Resources"
   - file: assignment
