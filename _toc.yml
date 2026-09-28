@@ -6,6 +6,8 @@ parts:
   chapters:
   - file: contents
     title: "Module Contents"
+  - file: installation
+    title: "Installtion"
   - file: resources
     title: "Resources"
   - file: assignment
