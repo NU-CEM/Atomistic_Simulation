@@ -8,9 +8,13 @@ For this course you have three options for running the software: i) running via 
 
 ---
 
-## Option 1: Run in the university Jupyter Lab server
+## Option 1: Install a container via Podman
 
-More details will be provided in class.
+[Podman](https://docs.podman.io/en/latest/#) is an open-source tool allowing you to run applications in a 'container'.
+
+Running in a container will allow you to install all the software required for this module without you having to manually install each component yourself.
+
+[Instructions can be downloaded here](./podman_files/guides_and_build_files.zip).
 
 ---
 
