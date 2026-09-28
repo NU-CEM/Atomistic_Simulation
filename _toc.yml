@@ -7,7 +7,7 @@ parts:
   - file: contents
     title: "Module Contents"
   - file: installation
-    title: "Installtion"
+    title: "Installation"
   - file: resources
     title: "Resources"
   - file: assignment
