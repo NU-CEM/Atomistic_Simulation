@@ -29,6 +29,6 @@ parts:
     title: "Electronic Structure"
   - file: notebooks/machine_learned_interatomic_potentials
     title: "Machine-Learned Interatomic Potentials"
-  - file: notebooks/molecular_dynamics
-    title: "Molecular Dynamics"
+#  - file: notebooks/molecular_dynamics
+#    title: "Molecular Dynamics"
 
